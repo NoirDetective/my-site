@@ -94,10 +94,6 @@ body {
   position: relative;
   padding-top: 200px;
   height: 798px;
-  background-image: url("img/bg-html.png");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 48px;
 }
 
 .hero-image .container {
@@ -108,7 +104,7 @@ body {
 .hero-image::before {
   position: absolute;
   content: "";
-  top: 24px;
+  top: 40px;
   left: calc(50vw - 32px);
   width: 800px;
   height: 800px;
@@ -123,7 +119,6 @@ body {
   width: 100%;
   bottom: 0;
   background-color: #0b0c23;
-  background-image: url("img/bg-tags.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-top: 2px solid #5053a8;
@@ -135,7 +130,7 @@ body {
   margin: 0 0 0 -10px;
   width: 815px;
   font-size: 96px;
-  line-height: 112px;
+  line-height: 110px;
   font-weight: 500;
 }
 
@@ -147,11 +142,11 @@ body {
   padding-bottom: 16px;
   font-size: 32px;
   line-height: 48px;
-  color: #f9dd79;
+  color: #f9da6d;
 }
 
 .intro,
-.portfolio {
+.sertificate {
   background-color: #141530;
   background-image: url("img/pattern-lines.svg");
   background-repeat: repeat-y;
@@ -193,15 +188,15 @@ body {
 }
 
 .intro h3,
-.portfolio h3 {
+.sertificate h3 {
   margin: 0 0 16px;
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
+  color: #42f4a7
 }
 
 .intro p {
-  margin: 0;
   z-index: 2;
 }
 
@@ -239,6 +234,26 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-python {
+  
+}
+
+.skill-pandas {
+  
+}
+
+.skill-numpy {
+
+}
+
+.skill-matplotlib {
+  
+}
+
+.skill-mysql {
+  
+}
+
 .level {
     margin: 4px 0 16px;
     padding: 0;
@@ -260,9 +275,10 @@ body {
     background-image: url("img/progress-pattern.svg");
 }
 
-.portfolio {
+.sertificate {
   margin: 0;
   padding-bottom: 160px;
+  
 }
 
 .projects {
@@ -323,7 +339,44 @@ body {
   box-shadow: none;
 }
 
+.resume-certificates-view {
+  position: relative;
+  max-width: 400px;
+  padding: 32px 26px 36px;
+  background: url(https://i.hh.ru/css/globals/blocks/resume/certificate-view/gilosh__min_.png) 0 0 repeat;
+  outline: 8px solid #eddbca;
+  outline-offset: -16px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.resume-certificates-view__item-title {
+  font-size: 16px;
+}
+
 .page-footer {
   padding: 40px 0;
   background-color: #212349;
+}
+
+a {
+  text-decoration-line: none;
 }
