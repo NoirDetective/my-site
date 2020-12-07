@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 1408px;
+  
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -187,7 +187,7 @@ body {
   margin-bottom: 56px;
 }
 
-.intro h3,
+.intro h3, 
 .sertificate h3 {
   margin: 0 0 16px;
   font-size: 32px;
@@ -201,8 +201,9 @@ body {
 }
 
 .skills {
-    margin: 0;
-    padding: 0 16px;
+  
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .skills h3 {
@@ -235,23 +236,23 @@ body {
 }
 
 .skill-python {
-  
+  background-image: url("img/python.svg");
 }
 
 .skill-pandas {
-  
+  background-image: url("img/pandas.svg");
 }
 
 .skill-numpy {
-
+  background-image: url("img/numpy.svg");
 }
 
 .skill-matplotlib {
-  
+  background-image: url("img/matplotlib.svg")
 }
 
 .skill-mysql {
-  
+  background-image: url("img/mysql.png")
 }
 
 .level {
@@ -276,9 +277,10 @@ body {
 }
 
 .sertificate {
-  margin: 0;
-  padding-bottom: 160px;
   
+  margin: 0 auto;
+  padding: 0 16px;
+  padding-bottom: 160px;
 }
 
 .projects {
